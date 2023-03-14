@@ -1,9 +1,9 @@
-import HeaderComponent from "./components/HeaderComponent";
+import Header from "./components/Header";
 import "./index.css";
 function App() {
   return (
     <>
-      <HeaderComponent />
+      <Header/>
     </>
   );
 }
