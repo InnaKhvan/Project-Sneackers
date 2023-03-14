@@ -5,7 +5,7 @@ const SearchForm = () => {
    
 <div className="relative">
         <input type="text"
-          className={"flex h-11 border brounded-10 rounded py-3.5 pr-2.5 text-xs "+ style.search}
+          className={"flex h-11 border py-3.5 pr-2.5 text-xs " + style.search}
           placeholder="Поиск по сайту"
         />
         <div className="absolute top-3 pl-6">
