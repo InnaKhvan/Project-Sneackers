@@ -17,10 +17,6 @@ module.exports = {
       secondary3: "#FFC34F",
       secondary4: "#EF8F00",
     },
-    margin: {
-      ml: {
-        9.1: "38px"},
-    },
 
     plugins: [],
   },
