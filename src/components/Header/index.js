@@ -1,10 +1,11 @@
-// import styles from "./Header.Module.css"
+import styles from "./Header.Module.css"
 import { Link } from "react-router-dom";
-import SearchForm from "../SearchComponent";
+import SearchForm from "../Search";
 
-function HeaderComponent() {
+function Header() {
   return (
     <header className="flex flex-col h-53">
+      <div className={"flex border" + styles.header}>
       <div className="flex h-37 flex-row items-center justify-around">
         <svg
           width="181"
@@ -95,7 +96,7 @@ function HeaderComponent() {
           </svg>
           +375 (33) 777-71-71
         </div>
-        <div className="flex justify-around">
+        {/* <div className="flex justify-around"> */}
           {/* user */}
           <svg
             width="24"
@@ -165,15 +166,15 @@ function HeaderComponent() {
               stroke-linejoin="round"
             />
           </svg>
-        </div>
-      </div>
+        </div></div>
+      {/* </div> */}
       <div className="flex font-semibold h-13 text-xs bg-gray-110">
         <Link className="">МУЖСКИЕ</Link>
         <Link className="">ЖЕНСКИЕ</Link>
         <Link className="">БРЕНДЫ</Link>
-        <Link className="text-red">HOT SALE</Link>
+        <Link className="text-sale">HOT SALE</Link>
       </div>
     </header>
   );
 }
-export default HeaderComponent;
+export default Header;
