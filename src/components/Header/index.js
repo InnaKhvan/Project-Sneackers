@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 import SearchForm from "../Search";
-import MenuItems from "../menuItems";
+import MenuItems from "../MenuItems";
 
 function Header() {
   return (
