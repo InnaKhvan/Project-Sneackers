@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import items from "../../mockData/menuItem.json"
 const MainMenuItem = () => {
     return (
         items.map((item) => (
-        <button className="p-9">
+        <Link><button className="p-9">
           {item.name}
-        </button>
+        </button></Link>
     ),
     ))
 };

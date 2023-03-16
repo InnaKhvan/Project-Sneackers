@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import MainMenuItem from "../MainMenuItem";
 import styles from "./menu.module.css";
 const MenuItems = () => {
@@ -7,7 +6,7 @@ const MenuItems = () => {
       <div
         className={"flex items-center " + styles.menu}
       >
-          <Link><MainMenuItem /></Link>
+          <MainMenuItem />
         </div>
         
       </div>
