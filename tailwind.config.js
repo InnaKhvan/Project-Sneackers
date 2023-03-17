@@ -4,14 +4,9 @@ module.exports = {
   theme: {
     extend: {},
     screens: {
-      tablet: "640px",
-      // => @media (min-width: 640px) { ... }
-
-      laptop: "1024px",
-      // => @media (min-width: 1024px) { ... }
-
-      desktop: "1280px",
-      // => @media (min-width: 1280px) { ... }
+      mobile: "375px",
+      tablet: "768px",
+      desktop: "1440px",
     },
     colors: {
       primary1: "#0A0A0A",
@@ -22,6 +17,18 @@ module.exports = {
       secondary3: "#FFC34F",
       secondary4: "#EF8F00",
     },
+    container: { 
+      center: true,
+
+      // padding: '1rem',
+
+      screens: {
+        mobile: "100%",
+        tablet: "704px",
+        desktop: "1200px",
+      },
+    },
+  },
 
   },
   height: {
