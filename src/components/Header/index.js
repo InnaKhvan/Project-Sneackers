@@ -10,7 +10,7 @@ import MainMenuItem from "../MainMenuItem";
 function Header() {
   return (
     <header className="flex flex-col h-53">
-      <div className="flex h-37 flex-row items-center justify-around">
+      <div className="container flex h-37 flex-row items-center justify-around">
         <div className={"flex justify-between items-center " + styles.header}>
           <LogoIcon />
           <SearchForm />
