@@ -1,11 +1,11 @@
 import styles from "./Header.module.css";
 import SearchForm from "../Search";
-import MenuItems from "../MenuItems";
 import { UserIcon } from "../svg/UserIcon";
 import { HeartIcon } from "../svg/HeartIcon";
 import { ShopCartIcon } from "../svg/ShopCartIcon";
 import { TelephoneIcon } from "../svg/TelephonIcon";
 import { LogoIcon } from "../svg/LogoIcon";
+import MainMenuItem from "../MainMenuItem";
 
 function Header() {
   return (
@@ -25,8 +25,7 @@ function Header() {
           </div>
         </div>
       </div>
-
-      <MenuItems />
+      <MainMenuItem />
     </header>
   );
 }
