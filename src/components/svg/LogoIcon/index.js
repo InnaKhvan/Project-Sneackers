@@ -1,7 +1,7 @@
 export const LogoIcon = ({ className }) => {
   return (
     <div className={className}>
-      <svg
+      <svg className=""
         width="181"
         height="76"
         viewBox="0 0 181 76"
@@ -71,6 +71,7 @@ export const LogoIcon = ({ className }) => {
           fill="#0A0A0A"
         />
       </svg>
+      
     </div>
   );
 };
