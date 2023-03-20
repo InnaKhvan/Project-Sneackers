@@ -1,13 +1,9 @@
 import styles from "./Header.module.css";
 import SearchForm from "../Search";
-import { UserIcon } from "../svg/UserIcon";
-import { HeartIcon } from "../svg/HeartIcon";
-import { ShopCartIcon } from "../svg/ShopCartIcon";
 import { TelephoneIcon } from "../svg/TelephonIcon";
 import { LogoIcon } from "../svg/LogoIcon";
 import MainMenuItem from "../MainMenuItem";
-import { MenuIcon } from "../svg/MenuIcon";
-import { SearchIconTablet } from "../svg/SearchIconTablet";
+import HeaderIcon from "../HeaderIcon";
 
 function Header() {
   return (
@@ -19,29 +15,23 @@ function Header() {
             styles.header
           }
         >
-          <LogoIcon className="" />
+          <LogoIcon className="tablet:w-40 h-16" />
           <div className="flex items-center">
           <SearchForm className="hidden desktop:block" />
           </div>
           <div
             className={
-              "flex flex-row font-semibold justify-around hidden tablet:flex desktop:flex " +
+              "flex flex-row font-semibold justify-around hidden tablet:flex " +
               styles.telephone
             }
           >
             <TelephoneIcon />
-            +375 (33) 777-71-71
+            <a href="tel:+375 (33) 777-71-71">+375 (33) 777-71-71</a>
           </div>
-          <div className="flex space-x-7 justify-around">
-            <SearchIconTablet className="hidden tablet:block desktop:hidden" />
-            <UserIcon className="hidden tablet:block desktop:block" />
-            <HeartIcon className="hidden tablet:block desktop:block" />
-            <ShopCartIcon />
-            <MenuIcon className="tablet:hidden desktop:hidden" />
-          </div>
+         <HeaderIcon />
         </div>
       </div>
-      <MainMenuItem className="hidden tablet:block desktop:block" />
+      <MainMenuItem className="hidden tablet:block" />
     </header>
   );
 }
