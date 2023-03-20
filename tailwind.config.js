@@ -26,6 +26,9 @@ module.exports = {
         desktop: "1200px",
       },
     },
+    // backgroundImage: {
+    //   'main-background': ""
+    // }
   },
   plugins: [],
 };
