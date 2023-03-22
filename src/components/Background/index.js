@@ -1,6 +1,6 @@
-export const background = () => {
+export const Background = () => {
     return (
-        <div className="bg-[url('/mock')]">
+        <div className="">
 
         </div>
     )

@@ -1,4 +1,4 @@
-export const UserIcon = ({className}) => {
+const UserIcon = ({className}) => {
   return (
     <div className={className}>
       <svg
@@ -26,3 +26,4 @@ export const UserIcon = ({className}) => {
       </div>
   );
 };
+export default UserIcon;

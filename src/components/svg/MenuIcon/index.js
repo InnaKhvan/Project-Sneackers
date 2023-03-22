@@ -1,4 +1,4 @@
-export const MenuIcon = ({ className }) => {
+const MenuIcon = ({ className }) => {
   return (
     <div className={className}>
       <svg
@@ -33,3 +33,4 @@ export const MenuIcon = ({ className }) => {
     </div>
   );
 };
+export default MenuIcon;

@@ -1,4 +1,4 @@
-export const SearchIconTablet = ({className}) => {
+const SearchIconTablet = ({className}) => {
   return (
     <div className={className}>
       <svg
@@ -26,4 +26,4 @@ export const SearchIconTablet = ({className}) => {
     </div>
   );
 };
-
+export default SearchIconTablet;

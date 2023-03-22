@@ -1,4 +1,4 @@
-export const ShopCartIcon = () => {
+const ShopCartIcon = () => {
   return (
     <>
       <svg
@@ -33,3 +33,4 @@ export const ShopCartIcon = () => {
     </>
   );
 };
+export default ShopCartIcon;

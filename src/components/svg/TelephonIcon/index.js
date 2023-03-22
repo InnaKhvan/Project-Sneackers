@@ -1,4 +1,4 @@
-export const TelephoneIcon = () => {
+const TelephoneIcon = () => {
   return (
     <>
       {" "}
@@ -20,3 +20,4 @@ export const TelephoneIcon = () => {
     </>
   );
 };
+export default TelephoneIcon;
