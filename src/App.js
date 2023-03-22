@@ -1,12 +1,7 @@
 import Card from "./components/CardProduct";
 import Header from "./components/Header";
 import "./index.css";
-
-let product = [
-  { name: "Nike Air Monarch IV", price: 250 },
-  { name: "Nike Air Monarch IV", price: 250 },
-  { name: "Nike Air Monarch IV", price: 250 }
-];
+import product from "./mockData/products.json";
 
 function App() {
   return (
