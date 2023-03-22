@@ -2,13 +2,26 @@ import Card from "./components/CardProduct";
 import Header from "./components/Header";
 import "./index.css";
 
+let product = [
+  { name: "Nike Air Monarch IV", price: 250 },
+  { name: "Nike Air Monarch IV", price: 250 },
+  { name: "Nike Air Monarch IV", price: 250 }
+];
+
 function App() {
   return (
-    <>
+    <div className="App">
       <Header />
-      <Card />
-    </>
+      <div className="container mx-auto mt-3.5 ">
+        <div className="grid-cols-3 ">
+          <Card items={product} />
+        </div>
+      </div>
+    </div>
   );
 }
 
 export default App;
+
+
+
