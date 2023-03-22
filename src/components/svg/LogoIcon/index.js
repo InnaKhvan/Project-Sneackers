@@ -1,9 +1,9 @@
-export const LogoIcon = ({ className }) => {
+const LogoIcon = ({ className }) => {
   return (
     <div className={className}>
       <svg className=""
-        width="181"
-        height="76"
+        width="100%"
+        height="auto"
         viewBox="0 0 181 76"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -75,3 +75,5 @@ export const LogoIcon = ({ className }) => {
     </div>
   );
 };
+
+export default LogoIcon;

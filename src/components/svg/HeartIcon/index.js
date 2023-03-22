@@ -1,4 +1,4 @@
-export const HeartIcon = ({className}) => {
+const HeartIcon = ({className}) => {
   return (
     <div className={className}>
       <svg
@@ -19,3 +19,4 @@ export const HeartIcon = ({className}) => {
     </div>
   );
 };
+export default HeartIcon;

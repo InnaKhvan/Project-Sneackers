@@ -1,9 +1,9 @@
 import styles from "./Header.module.css";
 import SearchForm from "../Search";
-import { TelephoneIcon } from "../svg/TelephonIcon";
-import { LogoIcon } from "../svg/LogoIcon";
+import TelephoneIcon from "../svg/TelephonIcon";
 import MainMenuItem from "../MainMenuItem";
-import HeaderIcon from "../HeaderIcon";
+import LogoIcon from "../svg/LogoIcon";
+import HeaderIcons from "../HeaderIcons";
 
 function Header() {
   return (
@@ -14,8 +14,7 @@ function Header() {
             "flex justify-between flex-row tablet:flex-row items-center " +
             styles.header
           }
-        >
-          <LogoIcon className="tablet:w-40 h-16" />
+        ><LogoIcon className="tablet:w-40 h-16" />
           <div className="flex items-center">
           <SearchForm className="hidden desktop:block" />
           </div>
@@ -28,7 +27,7 @@ function Header() {
             <TelephoneIcon />
             <a href="tel:+375 (33) 777-71-71">+375 (33) 777-71-71</a>
           </div>
-         <HeaderIcon />
+         <HeaderIcons />
         </div>
       </div>
       <MainMenuItem className="hidden tablet:block" />
