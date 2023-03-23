@@ -2,7 +2,9 @@ import "./index.css";
 import Footer from "./Components/Footer";
 function App() {
     return (<>
-        
+        <Footer>
+                
+        </Footer>
             </>
     );
   }
