@@ -1,10 +1,15 @@
 import styles from "./CardProduct.module.css";
+import items from "../../store/products.json";
 
-
-const Card = ({ items }) => {
+function Card() {
     return items.map((item) => (
-        <div className={"Montserrat "}>
-            <div className={styles.card}></div>
+        <div>
+            <div className={styles.card}><img
+                src={item.img}
+                className="mx-auto my-auto "
+                alt="picture"
+            />
+            </div>
             <div className={"mt-3 " + styles.description}>
                 <div className="text-lg font-medium ">{item.name}</div>
                 <div className={"inline-block text-base "}>{item.price} BYN</div>
