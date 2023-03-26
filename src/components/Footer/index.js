@@ -9,7 +9,7 @@ function Footer() {
     return (
         <>
             <LogoIcon />
-            <div class="columns-3 ...">
+            <div class="columns-3">
                 <h4>Контакты</h4>
                 <u1 className="listFooter">
                     <li><a href="tel:375337777171">+375 (33) 777  71 71</a></li>
