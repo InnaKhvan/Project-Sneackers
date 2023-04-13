@@ -1,0 +1,21 @@
+.text {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.block {
+  height: 380px;
+  width: 961px;
+
+}
+.imglogo {
+  max-width: 180px;
+  max-height: 120px;
+}
+
+.logoblock {
+  height: 265px;
+
+}
