@@ -9,7 +9,7 @@ const Brands = () => {
   return (
     <div
       className={
-        "container flex-col flex justify-center mt-40 " + styles.block
+        "container flex-col flex justify-center mt-40 w-screen " + styles.block
       }
     >
       <div className={"flex top-40 justify-center text-center " + styles.text}>
@@ -17,14 +17,16 @@ const Brands = () => {
       </div>
       <div className={"flex flex-col content-between " + styles.logoblock}>
         <div className="flex justify-between">
-          {" "}
+         
           <img className={styles.imglogo} src={puma} />
           <img className={styles.imglogo} src={NB} />
           <img className={styles.imglogo} src={adidas} />
+          <img className={"tablet:hidden desktop:hidden " + styles.imglogo} src={jordan} />
+
         </div>
-        <div className="flex justify-around">
+        <div className="flex hidden tablet:flex justify-around">
           <img className={styles.imglogo} src={jordan} />
-          <img className={styles.imglogo} src={nike} />
+          <img className={"hidden tablet:flex " + styles.imglogo} src={nike} />
         </div>
       </div>
     </div>
