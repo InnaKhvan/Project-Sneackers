@@ -2,7 +2,7 @@ import img from "../../../mockData/background.png";
 import Carousel from "nuka-carousel";
 import Catalog from "../../Catalog";
 import styles from "./slider.module.css";
-
+import Ellipse from "../../svg/Ellipse";
 export const Slider = () => {
   const slides = [img, img, img, img];
   const params = {};

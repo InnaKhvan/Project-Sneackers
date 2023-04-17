@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import items from "../../mockData/menuItem.json";
-const MainMenuItem = ({ className }) => {
+const MainMenuItem = () => {
   return (
-    <div className={"bg-secondary1 " + className}>
+    <div className="bg-secondary1 ">
       <div className="container flex justify-start items-center h-14 text-xs font-semibold">
         {items.map((item) => (
           <Link>
-            <button className="pr-9 ">{item.name}</button>
+            <button className={"pr-9 " + `${item.color}`} >{item.name}</button>
           </Link>
         ))}
       </div>

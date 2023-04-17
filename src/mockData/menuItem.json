@@ -1,6 +1,6 @@
 [
-  { "id": 1, "name": "МУЖСКИЕ" },
-  { "id": 2, "name": "ЖЕНСКИЕ" },
-  { "id": 3, "name": "БРЕНДЫ" },
-  { "id": 4, "name": "HOT SALE" }
+  { "name": "МУЖСКИЕ", "color": "text-primary1" },
+  { "name": "ЖЕНСКИЕ", "color": "text-primary1" },
+  { "name": "БРЕНДЫ", "color": "text-primary1" },
+  { "name": "HOT SALE", "color": "text-sale" }
 ]
