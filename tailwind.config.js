@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    fontSize: {
+      'h1': ['45px', {lineHeight: '55px', fontWeight: '700'}]
+    },
     extend: {},
     screens: {
       mobile: "375px",
@@ -12,7 +15,7 @@ module.exports = {
       primary1: "#0A0A0A",
       primary2: "#FFA800",
       secondary1: "#F1F1F1",
-      secondary2: "#F1F1F1",
+      secondary2: "#7A7A7A",
       sale: "#FF0000",
       secondary3: "#FFC34F",
       secondary4: "#EF8F00",
