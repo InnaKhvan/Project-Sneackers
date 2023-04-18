@@ -1,7 +1,4 @@
 .text {
-  font-size: 45px;
-  line-height: 55px;
-  font-weight: 700;
   margin-bottom: 60px;
 }
 
@@ -14,26 +11,24 @@
   max-height: 120px;
   object-fit: contain;
 }
-@media screen and (max-width: 604px) {
+.logoblock {
+  height: 265px;
+}
+
+@media screen and (max-width: 767px) {
   .imglogo {
     max-width: 72px;
     max-height: 54px;
   }
-}
-@media screen and (max-width: 375px) {
-    .text {
-        font-size: 35px;
-        line-height: 43px;
-    }
+  .text {
+    font-size: 35px;
+    line-height: 43px;
   }
+}
 
-@media screen and (min-width: 605px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .imglogo {
     max-width: 159px;
     max-height: 111px;
   }
-}
-
-.logoblock {
-  height: 265px;
 }
