@@ -17,14 +17,18 @@ const ApplicationForm = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <input type="text"name="name"
+          <input
+            type="text"
+            name="name"
             placeholder="Имя"
             className={
               "border-secondary2 text-secondary2 pl-5 border-2 h-14 mb-2.5 " +
               styles.input
             }
           ></input>
-          <input type="email"name="email"
+          <input
+            type="email"
+            name="email"
             placeholder="Email"
             className={
               "border-secondary2 border-2 pl-5 h-14 mb-2.5 " + styles.input
@@ -37,14 +41,16 @@ const ApplicationForm = () => {
           >
             Подписаться
           </button>
-          <div className={"font-normal justify-center mt-2.5 " + styles.checkbox}>
-            <input
-              type="checkbox"
-              id="elem"
-            />
-            <a href="" target="" >
+          <div
+            className={
+              "text-p1 flex flex-row justify-center mt-2.5 " +
+              styles.checkbox
+            }
+          >
+            <input type="checkbox" id="elem" />
+            <div className="flex pl-2.5">
               Я согласен с обработкой персональных данных
-            </a>
+            </div>
           </div>
         </div>
       </div>
