@@ -3,7 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     fontSize: {
-      'h1': ['45px', {lineHeight: '55px', fontWeight: '700'}]
+      h1: ["45px", { lineHeight: "55px", fontWeight: "700" }],
+      h2: ["15px", { lineHeight: "18px", fontWeight: "500" }],
+      p1: ["12px", { lineHeight: "15px", fontWeight: "400" }],
     },
     extend: {},
     screens: {

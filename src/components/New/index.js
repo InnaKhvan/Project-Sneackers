@@ -1,4 +1,4 @@
-import styles from "./NewBlock.module.css";
+import styles from "./newBlock.module.css";
 
 const NewBlock = () => {
   return (
