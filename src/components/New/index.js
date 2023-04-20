@@ -11,7 +11,7 @@ const NewBlock = () => {
       <div>
         Карточки товаров
       </div>
-      <a className={"flex font-semibold content-end justify-center underline " + styles.look} href="">Смотреть еще</a>
+      <a className={"flex font-semibold content-end justify-center underline " + styles.look} href=" ">Смотреть еще</a>
     </div>
   );
 };
