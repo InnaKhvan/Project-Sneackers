@@ -8,9 +8,8 @@ const Catalog = () => {
       <Header />
       <Navigation />
       <div className="container">
-      <Filter />
+        <Filter />
       </div>
-      
     </>
   );
 };

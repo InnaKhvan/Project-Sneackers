@@ -28,7 +28,7 @@ const DeliveryAdress = () => {
               }
             />
           </div>
-          <div className="flex flex-col desktop:space-x-5 desktop:mt-2.5">
+          <div className="flex flex-col desktop:space-x-5 desktop:mt-2.5 desktop:flex-row">
             <div className="flex flex-row space-x-2.5 desktop:space-x-5 desktop:flex-row ">
               <input
                 type="house"

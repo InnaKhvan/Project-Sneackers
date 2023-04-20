@@ -1,3 +1,4 @@
+import Checkbox from "../Checkbox";
 import styles from "./ApplicationForm.module.css";
 const ApplicationForm = () => {
   return (
@@ -31,7 +32,8 @@ const ApplicationForm = () => {
             name="email"
             placeholder="Email"
             className={
-              "border-secondary2 border-2 pl-5 h-14 mb-2.5 text-p1 " + styles.input
+              "border-secondary2 border-2 pl-5 h-14 mb-2.5 text-p1 " +
+              styles.input
             }
           ></input>
           <button
@@ -43,14 +45,10 @@ const ApplicationForm = () => {
           </button>
           <div
             className={
-              "text-p1 flex flex-row justify-center mt-2.5 " +
-              styles.checkbox
+              "text-p1 flex flex-row justify-center mt-2.5 " + styles.checkbox
             }
           >
-            <input type="checkbox" id="elem" />
-            <div className="flex pl-2.5">
-              Я согласен с обработкой персональных данных
-            </div>
+            <Checkbox />
           </div>
         </div>
       </div>
