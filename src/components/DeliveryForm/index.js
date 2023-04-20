@@ -15,7 +15,7 @@ const DeliveryForm = () => {
             <input type="radio" id="elem" />
             <p className={"flex text-p1 " + styles.input}>Доставка курьером</p>
           </div>
-          <div className="flex desktop:ml-5">
+          <div className="flex tablet:ml-5">
             <input type="radio" id="elem" />
             <div className={"flex text-p1 " + styles.input}>Самовывоз </div>
           </div>

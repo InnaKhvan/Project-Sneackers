@@ -10,8 +10,6 @@ const Order = () => {
       <MainMenuItem />
       <Navigation />
       <OrderForm />
-
-     
     </>
   );
 };
