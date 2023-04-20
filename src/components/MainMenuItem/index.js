@@ -6,7 +6,7 @@ const MainMenuItem = () => {
       <div className="container flex justify-start items-center h-14 text-xs font-semibold">
         {items.map((item) => (
           <Link>
-            <button className={"pr-9 " + `${item.color}`} >{item.name}</button>
+            <button className={"pr-9 " + `${item.color}`}>{item.name}</button>
           </Link>
         ))}
       </div>
