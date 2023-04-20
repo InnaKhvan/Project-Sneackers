@@ -1,0 +1,43 @@
+.mainblock {
+  height: 272px;
+}
+.block {
+  margin-left: 60px;
+}
+.inputblock {
+  margin-top: 30px;
+  width: 540px;
+}
+.input1 {
+  border-radius: 10px;
+  width: 250px;
+}
+.input2 {
+  border-radius: 10px;
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .mainblock {
+    height: 372px;
+  }
+  .inputblock {
+    margin-top: 20px;
+  }
+  .block {
+    margin-left: 20px;
+    margin-bottom: 44px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mainblock {
+    height: 372px;
+  }
+  .block {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .inputblock {
+    margin-top: 10px;
+  }
+}
