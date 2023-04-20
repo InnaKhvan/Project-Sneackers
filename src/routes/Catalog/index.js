@@ -1,4 +1,4 @@
-import Filter from "../../components/Filter";
+import Filter from "../../components/FilterForm";
 import Header from "../../components/Header";
 import Navigation from "../../components/Navigation";
 
@@ -7,7 +7,10 @@ const Catalog = () => {
     <>
       <Header />
       <Navigation />
+      <div className="container">
       <Filter />
+      </div>
+      
     </>
   );
 };
