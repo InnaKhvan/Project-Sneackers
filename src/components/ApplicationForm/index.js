@@ -31,7 +31,7 @@ const ApplicationForm = () => {
             name="email"
             placeholder="Email"
             className={
-              "border-secondary2 border-2 pl-5 h-14 mb-2.5 " + styles.input
+              "border-secondary2 border-2 pl-5 h-14 mb-2.5 text-p1 " + styles.input
             }
           ></input>
           <button

@@ -4,12 +4,9 @@
 .block {
   width: 964px;
   height: 232px;
-  /* padding-top: 60px;
-  margin-left: 238px; */
 }
 .textblock {
   margin-top: 17px;
-  /* margin-right: 126px; */
 }
 .text1 {
   width: 588px;
@@ -24,8 +21,6 @@
 .input {
   border-radius: 10px;
   width: 250px;
-  font-size: 14px;
-  line-height: 17px;
 }
 .button {
   height: 60px;
@@ -68,7 +63,6 @@
   .block {
     width: 704px;
     margin-left: 32px;
-    
   }
   .textblock {
     margin-right: 23px;
