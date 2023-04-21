@@ -1,0 +1,24 @@
+[
+  {
+    "type": "Вид обуви",
+    "name": ["Кроссовки", "Кеды"]
+  },
+  {
+    "type": "Бренд",
+    "name": [
+      "Nike",
+      "Adidas",
+      "Puma",
+      "Reebook",
+      "Air Jordan",
+      "Convers",
+      "New Balance",
+      "Champion",
+      "Vans"
+    ]
+  },
+  {
+    "type": "Размер",
+    "name": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+  }
+]

@@ -1,34 +1,21 @@
-.mainblock {
-  height: 196px;
-}
-.block {
-  margin-left: 60px;
-}
 .inputblock {
   margin-top: 30px;
+  width: 540px;
 }
-.input {
+.input1 {
   border-radius: 10px;
   width: 250px;
 }
+.input2 {
+  border-radius: 10px;
+  width: 120px;
+}
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .mainblock {
-    height: 206px;
-  }
   .inputblock {
     margin-top: 20px;
   }
-  .block {
-    margin-left: 20px;
-  }
 }
 @media screen and (max-width: 767px) {
-  .mainblock {
-    height: 192px;
-  }
-  .block {
-    margin-left: 22px;
-  }
   .inputblock {
     margin-top: 10px;
   }

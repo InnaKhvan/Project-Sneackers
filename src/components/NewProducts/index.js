@@ -1,6 +1,6 @@
-import styles from "./newBlock.module.css";
+import styles from "./newProdactBlock.module.css";
 
-const NewBlock = () => {
+const NewProdactBlock = () => {
   return (
     <div
       className={
@@ -9,11 +9,11 @@ const NewBlock = () => {
     >
       <div className={"flex justify-center text-h1 " + styles.new}>НОВИНКИ</div>
       <div>
-        Карточки товаров
+        Тут будут карточки товаров
       </div>
       <a className={"flex font-semibold content-end justify-center underline " + styles.look} href=" ">Смотреть еще</a>
     </div>
   );
 };
 
-export default NewBlock;
+export default NewProdactBlock;
