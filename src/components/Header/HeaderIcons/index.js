@@ -1,8 +1,8 @@
-import MenuIcon from "../svg/MenuIcon";
-import SearchIconTablet from "../svg/SearchIconTablet";
-import ShopCartIcon from "../svg/ShopCartIcon";
-import UserIcon from "../svg/UserIcon";
-import HeartIcon from "../svg/HeartIcon";
+import MenuIcon from "../../svg/MenuIcon";
+import SearchIconTablet from "../../svg/SearchIconTablet";
+import ShopCartIcon from "../../svg/ShopCartIcon";
+import UserIcon from "../../svg/UserIcon";
+import HeartIcon from "../../svg/HeartIcon";
 
 const HeaderIcons = () => {
   return (

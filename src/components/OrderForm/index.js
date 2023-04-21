@@ -1,15 +1,15 @@
 import ButtonOrder from "../ButtonOrder";
 import Checkbox from "../Checkbox";
-import CommentForm from "../CommentForm";
-import ContactForm from "../ContactForm";
-import DeliveryAdress from "../DeliveryAdress";
-import DeliveryForm from "../DeliveryForm";
+import CommentForm from "./CommentForm";
+import ContactForm from "./ContactForm";
+import DeliveryAdress from "./DeliveryAdress";
+import DeliveryForm from "./DeliveryForm";
 import styles from "./orderForm.module.css";
 const OrderForm = () => {
   return (
     <div className="container ">
       <div className="">
-        <ContactForm />
+       <ContactForm />
       </div>
       <div className="my-5">
         <DeliveryForm />

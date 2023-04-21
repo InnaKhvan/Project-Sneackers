@@ -1,12 +1,7 @@
+import OrderCard from "../OrderCard";
 import styles from "./deliveryAdress.module.css";
 const DeliveryAdress = () => {
-  return (
-    <div className={"flex w-2/3 bg-secondary1 " + styles.mainblock}>
-      <div className={"my-5 desktop:m-10 " + styles.block}>
-        {" "}
-        <p className="desktop:text-h2 tablet:text-h2t text-h2m">
-          Укажите адрес доставки{" "}
-        </p>
+  return (<OrderCard title="Укажите адрес доставки">
         <div className={styles.inputblock}>
           <div className="flex flex-col desktop:space-x-5 desktop:flex-row">
             <input
@@ -71,8 +66,7 @@ const DeliveryAdress = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </OrderCard>
   );
 };
 export default DeliveryAdress;
