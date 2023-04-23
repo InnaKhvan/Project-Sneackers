@@ -18,15 +18,10 @@
   font-size: 20px;
   line-height: 24px;
 }
-.input {
-  border-radius: 10px;
-  width: 250px;
-}
+
 .button {
   height: 60px;
   width: 250px;
-  font-size: 14px;
-  line-height: 17px;
 }
 .checkbox {
   height: 30px;

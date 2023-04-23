@@ -1,5 +1,5 @@
 import Header from "../../components/Header";
-import MainMenuItem from "../../components/MainMenuItem";
+import MainMenuItem from "../../components/MenuItem";
 import Navigation from "../../components/Navigation";
 import OrderForm from "../../components/OrderForm";
 

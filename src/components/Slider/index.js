@@ -1,6 +1,7 @@
 import img from "../../mockData/background.png";
+import { Link } from "react-router-dom";
+
 import Carousel from "nuka-carousel";
-import Catalog from "../CatalogButton";
 import styles from "./slider.module.css";
 // import Ellipse from "../svg/Ellipse";
 export const Slider = () => {
@@ -11,7 +12,6 @@ export const Slider = () => {
       <div className={"flex " + styles.carousel}>
         <Carousel
           {...params}
-         
           renderCenterLeftControls
           // renderBottomCenterControls={{Paging dots}}
           // renderCenterRightControls={({ goToSlide, slideIndex }) => (
@@ -25,7 +25,16 @@ export const Slider = () => {
       </div>
       <div className={"flex absolute " + styles.catalog}>
         {" "}
-        <Catalog />{" "}
+        <Link to="Catalog">
+          <button
+            className={
+              "flex bg-primary1 text-p1 justify-center text-secondary1 p-5 rounded-xl " +
+              styles.button
+            }
+          >
+            Смотреть каталог{" "}
+          </button>
+        </Link>
       </div>
     </div>
   );
