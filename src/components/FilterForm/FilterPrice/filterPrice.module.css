@@ -5,6 +5,7 @@
     margin-bottom: 15px;
 }
 .priceblock {
+    width: 50px;
     border-radius: 3px;
     padding-top: 5px;
     padding-bottom: 5px;

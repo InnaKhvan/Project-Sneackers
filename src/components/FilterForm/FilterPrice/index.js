@@ -20,8 +20,8 @@ const FilterPrice = () => {
       <h2 className="text-h3 mb-2.5 desktop:mb-5 mt-7">Цена</h2>
       <div className={"flex space-x-5 " + styles.block}>
         {" "}
-        <div className={"text-p2 border pl-2.5 pr-5	border-secondary2 " + styles.priceblock}></div>{" "}
-        <div className={"text-p2 border pl-2.5 pr-5	border-secondary2 " + styles.priceblock}></div>
+        <input className={"text-p2 border pl-2.5 pr-5	bg-secondary1 border-secondary2 " + styles.priceblock} />
+        <input className={"text-p2 border pl-2.5 pr-5	bg-secondary1 border-secondary2 " + styles.priceblock} />
       </div>
 
       <RangeSlider {...rangeSliderElement} />
