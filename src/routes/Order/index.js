@@ -1,5 +1,5 @@
 import Header from "../../components/Header";
-import MainMenuItem from "../../components/MenuItem";
+import MenuItems from "../../components/MenuItems";
 import Navigation from "../../components/Navigation";
 import OrderForm from "../../components/OrderForm";
 
@@ -7,7 +7,7 @@ const Order = () => {
   return (
     <>
       <Header />
-      <MainMenuItem />
+      <MenuItems />
       <Navigation />
       <OrderForm />
     </>
