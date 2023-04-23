@@ -1,7 +1,6 @@
 import styles from "./Header.module.css";
 import SearchForm from "./Search";
 import TelephoneIcon from "../svg/TelephonIcon";
-// import MainMenuItem from "../MainMenuItem";
 import LogoIcon from "../svg/LogoIcon";
 import HeaderIcons from "./HeaderIcons";
 
