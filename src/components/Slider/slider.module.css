@@ -1,10 +1,13 @@
 img {
   height: 605px;
   object-fit: cover;
-
 }
-
 .catalog {
-bottom: 50px;
+  bottom: 50px;
 }
 
+.button {
+  width: 204px;
+  height: 60px;
+  bottom: 50px;
+}

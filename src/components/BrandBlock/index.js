@@ -5,7 +5,7 @@ import NB from "../../mockData/NB.png";
 import nike from "../../mockData/nike.png";
 import puma from "../../mockData/puma.png";
 
-const Brands = () => {
+const BrandsBlock = () => {
   return (
     <div
       className={
@@ -33,4 +33,4 @@ const Brands = () => {
   );
 };
 
-export default Brands;
+export default BrandsBlock;

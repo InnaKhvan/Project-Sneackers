@@ -1,5 +1,4 @@
 .input {
-  border-radius: 10px;
   width: 500px;
   height: 100px;
 }
@@ -12,6 +11,6 @@
 @media screen and (max-width: 767px) {
   .input {
     max-width: 292px;
-    height: 90px;
+    max-height: 90px;
   }
 }

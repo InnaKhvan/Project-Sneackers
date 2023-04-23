@@ -1,4 +1,4 @@
-import SearchIcon from "../svg/SearchIcon";
+import SearchIcon from "../../svg/SearchIcon";
 import style from "./Search.module.css";
 const SearchForm = ({className}) => {
   return (

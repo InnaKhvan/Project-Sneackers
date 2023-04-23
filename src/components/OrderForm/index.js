@@ -9,7 +9,7 @@ const OrderForm = () => {
   return (
     <div className="container ">
       <div className="">
-       <ContactForm />
+        <ContactForm />
       </div>
       <div className="my-5">
         <DeliveryForm />

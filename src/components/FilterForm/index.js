@@ -8,8 +8,18 @@ const Sex = ["Женский", "Мужской", "Унисекс"];
 
 const Filter = () => {
   return (
-    <div className={"bg-secondary1 flex-col hidden tablet:flex " + styles.mainblock}>
-      <h1 className={"flex font-semibold text-h2t tablet:mb-5 " + styles.textFilter}>Фильтры</h1>
+    <div
+      className={
+        "bg-secondary1 flex-col hidden tablet:flex " + styles.mainblock
+      }
+    >
+      <h1
+        className={
+          "flex font-semibold text-h2t tablet:mb-5 " + styles.textFilter
+        }
+      >
+        Фильтры
+      </h1>
       <div className={"flex flex-col " + styles.block}>
         <FilterTypeShoes />
         <FilterBrand />
@@ -20,8 +30,8 @@ const Filter = () => {
             {item}
           </div>
         ))}
-      <FilterSize />
-       <FilterPrice />
+        <FilterSize />
+        <FilterPrice />
       </div>
     </div>
   );
