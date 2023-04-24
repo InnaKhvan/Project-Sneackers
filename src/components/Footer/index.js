@@ -59,19 +59,21 @@ function Footer() {
     ]
 
     return (
-        <div className={styles.footer + " py-10"}>
-            <div className="container grid grid-cols-4 tablet:grid-cols-8 desktop:grid-cols-12">
-                <div className="col-span-2 desktop:col-span-3">
-                    <LogoWhiteIcon />
-                </div>
+        <div className="absolute inset-x-0 bottom-0 h-16">
+            <div className={styles.footer + " py-10 "}>
+                <div className="container grid grid-cols-4 tablet:grid-cols-8 desktop:grid-cols-12">
+                    <div className="col-span-2 desktop:col-span-3">
+                        <LogoWhiteIcon />
+                    </div>
 
-                <FooterMenu title="Контакты" items={contactMenuItems} className="col-span-2" />
-                <FooterMenu title="Информация" items={informationMenuItems} className="col-span-2 hidden tablet:block" />
-                <FooterMenu title="Помощь" items={helpMenuItems} className="col-span-2 hidden tablet:block" />
-                <div className="col-span-3 hidden tablet:flex space-x-7">
-                    <TwitterIcon />
-                    <FacebookIcon />
-                    <InstagramIcon />
+                    <FooterMenu title="Контакты" items={contactMenuItems} className="col-span-2" />
+                    <FooterMenu title="Информация" items={informationMenuItems} className="col-span-2 hidden tablet:block" />
+                    <FooterMenu title="Помощь" items={helpMenuItems} className="col-span-2 hidden tablet:block" />
+                    <div className="col-span-3 hidden tablet:flex space-x-7">
+                        <TwitterIcon />
+                        <FacebookIcon />
+                        <InstagramIcon />
+                    </div>
                 </div>
             </div>
         </div>
