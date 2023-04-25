@@ -6,8 +6,8 @@ const FilterTypeShoes = () => {
       <h2 className="text-h3 mb-2.5 desktop:mb-5 mt-7">{items[0].type}</h2>
       {items[0].name.map((item) => (
         <div className="text-p2 mb-2.5">
-          <input className="mr-1" type="checkbox" />
-          {item}
+          <input className="mr-1" type="checkbox" id="typeshoes" />
+          <label for="typeshoes">{item}</label>
         </div>
       ))}
     </>
