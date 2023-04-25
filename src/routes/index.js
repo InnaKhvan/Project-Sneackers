@@ -23,14 +23,6 @@ const router = createBrowserRouter([
       path: "Order",
       element: <Order />,
     },
-    {
-      path: "/Footer",
-      element: <RouteFooter />
-    },
-    {
-      path: "/components/Footer/FooterMenu",
-      element: <RouteFooterMenu />
-    }
 ])
 
 export default router;
