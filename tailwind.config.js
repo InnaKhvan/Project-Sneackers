@@ -34,12 +34,10 @@ module.exports = {
         tablet: "704px",
         desktop: "1200px",
       },
-      padding: {
-        DEFAULT: "15px",
-       
-      }
     },
-  
+    // backgroundImage: {
+    //   'main-background': ""
+    // }
   },
   plugins: [],
 };
