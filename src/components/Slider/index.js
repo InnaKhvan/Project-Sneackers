@@ -1,22 +1,29 @@
 import img from "../../mockData/background.png";
 import { Link } from "react-router-dom";
-
 import Carousel from "nuka-carousel";
 import styles from "./slider.module.css";
-// import Ellipse from "../svg/Ellipse";
+import Ellipse from "../svg/Ellipse";
 export const Slider = () => {
   const slides = [img, img, img, img];
-  const params = {};
+  const pagingDots = ({ goToSlide, currentSlide, slideIndex, pagingDotsIndices }) =>
+    pagingDotsIndices.map((index) => (
+      <button goToSlide={index}
+        style={{
+          display: "flex",
+          marginRight: 120,
+          padding: 11
+        }}
+      >
+        <Ellipse />
+      </button>
+    ));
   return (
     <div className="flex justify-center relative">
       <div className={"flex " + styles.carousel}>
         <Carousel
-          {...params}
+          renderCenterRightControls={pagingDots}
           renderCenterLeftControls
-          // renderBottomCenterControls={{Paging dots}}
-          // renderCenterRightControls={({ goToSlide, slideIndex }) => (
-          //   <button onClick={goToSlide(slideIndex)}><Ellipse /></button>
-          // )}
+          renderBottomCenterControls
         >
           {slides.map((slide) => (
             <img src={slide} key={slide} alt="" />

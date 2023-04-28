@@ -1,10 +1,9 @@
 import styles from "./Header.module.css";
 import SearchForm from "./Search";
 import TelephoneIcon from "../svg/TelephonIcon";
-// import MainMenuItem from "../MainMenuItem";
 import LogoIcon from "../svg/LogoIcon";
 import HeaderIcons from "./HeaderIcons";
-
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -16,7 +15,11 @@ function Header() {
             styles.header
           }
         >
-          <LogoIcon className="tablet:w-40 h-16" />
+          <Link to="../">
+            {" "}
+            <LogoIcon className="tablet:w-40 h-16" />
+          </Link>
+
           <div className="flex items-center">
             <SearchForm className="hidden desktop:block" />
           </div>
