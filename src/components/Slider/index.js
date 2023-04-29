@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 import Ellipse from '../svg/Ellipse'
 import Carousel from "nuka-carousel";
 import styles from "./slider.module.css";
-// import Ellipse from "../svg/Ellipse";
 export const Slider = () => {
   const slides = [img, img, img, img];
   const pagingDots = ({ goToSlide, currentSlide, slideIndex, pagingDotsIndices }) =>
   pagingDotsIndices.map((index) => (
-    <button goToSlide={index}
+    <button onClick={slideIndex} 
       style={{
         display: "flex",
         marginRight: 120,
