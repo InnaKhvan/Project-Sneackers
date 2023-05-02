@@ -11,3 +11,15 @@ img {
   height: 60px;
   bottom: 50px;
 }
+
+.dot {
+  /* width: 5px;
+  height: 5px; */
+  border-radius: 9999px;
+  border-width: 1px;
+  margin-bottom: 11px;
+
+}
+.active, .dot:hover {
+  background-color: #0A0A0A;
+}
