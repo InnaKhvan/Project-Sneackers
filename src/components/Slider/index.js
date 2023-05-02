@@ -1,26 +1,22 @@
 import img from "../../mockData/slider.json";
 import { Link } from "react-router-dom";
-import Ellipse from "../svg/Ellipse";
+import Dots from "../svg/Dots";
 import Carousel from "nuka-carousel";
 import styles from "./slider.module.css";
+import ActiveDot from "../svg/ActiveDot";
 export const Slider = () => {
-  const pagingDots = ({
-    goToSlide,
-    currentSlide,
-    slideIndex,
-    pagingDotsIndices,
-  }) =>
+  const pagingDots = ({ goToSlide, slideIndex, pagingDotsIndices }) =>
     pagingDotsIndices.map((index) => (
       <button
-        onClick={slideIndex}
+        onClick={() => goToSlide(index)}
         style={{
           display: "flex",
           marginRight: 120,
           padding: 11,
         }}
-        className={styles.dot}
+        className={index == slideIndex ? <ActiveDot /> : <Dots />}
       >
-        {/* <Ellipse /> */}
+        {index == slideIndex ? <ActiveDot /> : <Dots />}
       </button>
     ));
   return (
@@ -28,6 +24,7 @@ export const Slider = () => {
       <div className={"flex " + styles.carousel}>
         <Carousel
           animation="zoom"
+          currentSlide={0}
           renderCenterRightControls={pagingDots}
           renderCenterLeftControls
           renderBottomCenterControls
