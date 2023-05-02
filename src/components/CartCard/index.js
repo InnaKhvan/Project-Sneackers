@@ -1,4 +1,4 @@
-import items from "../../store/products.json";
+import items from "../../mockData/products.json";
 import styles from "./CartCard.module.css";
 
 function CartCard() {

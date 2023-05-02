@@ -1,5 +1,5 @@
 import styles from "./CardProduct.module.css";
-import items from "../../store/products.json";
+import items from "../../mockData/products.json";
 import { Link } from "react-router-dom";
 
 function Card() {
