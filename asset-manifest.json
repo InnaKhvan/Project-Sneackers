@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/InnaKhvan/Project-Sneackers/static/css/main.63d9d06f.css",
-    "main.js": "/InnaKhvan/Project-Sneackers/static/js/main.8955e4b6.js",
-    "static/media/background.png": "/InnaKhvan/Project-Sneackers/static/media/background.73a60b5072ce890b9c27.png",
-    "static/media/NB.png": "/InnaKhvan/Project-Sneackers/static/media/NB.827504779cc5890ee62c.png",
-    "index.html": "/InnaKhvan/Project-Sneackers/index.html",
-    "main.63d9d06f.css.map": "/InnaKhvan/Project-Sneackers/static/css/main.63d9d06f.css.map",
-    "main.8955e4b6.js.map": "/InnaKhvan/Project-Sneackers/static/js/main.8955e4b6.js.map"
+    "main.css": "/Project-Sneackers/static/css/main.63d9d06f.css",
+    "main.js": "/Project-Sneackers/static/js/main.beaaed1d.js",
+    "static/media/background.png": "/Project-Sneackers/static/media/background.73a60b5072ce890b9c27.png",
+    "static/media/NB.png": "/Project-Sneackers/static/media/NB.827504779cc5890ee62c.png",
+    "index.html": "/Project-Sneackers/index.html",
+    "main.63d9d06f.css.map": "/Project-Sneackers/static/css/main.63d9d06f.css.map",
+    "main.beaaed1d.js.map": "/Project-Sneackers/static/js/main.beaaed1d.js.map"
   },
   "entrypoints": [
     "static/css/main.63d9d06f.css",
-    "static/js/main.8955e4b6.js"
+    "static/js/main.beaaed1d.js"
   ]
 }
