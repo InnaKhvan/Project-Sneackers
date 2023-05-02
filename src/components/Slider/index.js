@@ -1,10 +1,9 @@
-import img from "../../mockData/background.png";
+import img from "../../mockData/slider.json";
 import { Link } from "react-router-dom";
 import Ellipse from "../svg/Ellipse";
 import Carousel from "nuka-carousel";
 import styles from "./slider.module.css";
 export const Slider = () => {
-  const slides = [img, img, img, img];
   const pagingDots = ({
     goToSlide,
     currentSlide,
@@ -33,8 +32,8 @@ export const Slider = () => {
           renderCenterLeftControls
           renderBottomCenterControls
         >
-          {slides.map((slide) => (
-            <img src={slide} key={slide} alt="" />
+          {img.map((slide) => (
+            <img src={slide.img} key={slide} alt="" />
           ))}
         </Carousel>
       </div>
