@@ -1,4 +1,5 @@
 import Card from "./components/CardProduct";
+import CartCard from "./components/CartCard";
 import Header from "./components/Header";
 import "./index.css";
 
@@ -11,6 +12,7 @@ function App() {
           <Card />
         </div>
       </div>
+      <CartCard />
     </div>
   );
 }

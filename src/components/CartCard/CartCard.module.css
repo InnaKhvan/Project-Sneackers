@@ -1,0 +1,15 @@
+.container {
+    height: 182px;
+    width: 522px;
+    border-radius: 0px;
+    background: #F1F1F1;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    left: 20px;
+    top: 16px;
+    border-radius: 0px;
+    background: #FFFFFF;
+}
