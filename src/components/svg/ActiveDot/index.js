@@ -1,4 +1,4 @@
-const ActiveEllipse = () => {
+const ActiveDot = () => {
   return (
     <svg
       width="10"
@@ -11,4 +11,4 @@ const ActiveEllipse = () => {
     </svg>
   );
 };
-export default ActiveEllipse;
+export default ActiveDot;
