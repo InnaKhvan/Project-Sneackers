@@ -14,17 +14,20 @@ export const Slider = () => {
           marginRight: 120,
           padding: 11,
         }}
-        className={index == slideIndex ? <ActiveDot /> : <Dots />}
+        className={index == slideIndex ? styles.dotActive : styles.dot}
       >
-        {index == slideIndex ? <ActiveDot /> : <Dots />}
+        {/* <Dots /> */}
       </button>
     ));
   return (
     <div className="flex justify-center relative">
       <div className={"flex " + styles.carousel}>
         <Carousel
+          renderTopCenterControls={({ currentSlide }) => (
+            <div>Slide: {currentSlide}</div>
+          )}
           animation="zoom"
-          currentSlide={0}
+          // currentSlide
           renderCenterRightControls={pagingDots}
           renderCenterLeftControls
           renderBottomCenterControls
