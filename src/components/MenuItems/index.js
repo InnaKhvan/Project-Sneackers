@@ -1,4 +1,3 @@
-
 const MenuItems = () => {
   return (
     <div className="bg-secondary1 hidden tablet:flex">
