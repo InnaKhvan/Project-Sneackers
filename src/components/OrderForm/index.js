@@ -7,8 +7,8 @@ import DeliveryForm from "./DeliveryForm";
 import styles from "./orderForm.module.css";
 const OrderForm = () => {
   return (
-    <div className="container ">
-      <div className="">
+    <div className="container mb-[30px] ">
+      <div>
         <ContactForm />
       </div>
       <div className="my-5">

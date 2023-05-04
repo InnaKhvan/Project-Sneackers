@@ -9,18 +9,6 @@ import styles from './filterPrice.module.css'
 // };
 const FilterPrice = () => {
 
-  const rng=document.getElementById('r1'); //rng - это ползунок
-  const i1=document.getElementById('i1'); // i1 - input
- i1=rng;
-
-  // const rangeSliderElement = {
-  //   min: 150,
-  //   max: 450,
-    
-  
-  // };
-
-
   return (
     <div className={styles.mainblock}>
       <h2 className="text-h3 mb-2.5 desktop:mb-5 mt-7">Цена</h2>

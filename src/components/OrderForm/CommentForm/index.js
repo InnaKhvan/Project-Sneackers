@@ -4,7 +4,7 @@ import styles from "./commentForm.module.css";
 const CommentForm = () => {
   return (
     <OrderCard title="Комментарий к заказу">
-      <InputElem placeholder="Комментарий" className={"Primary " + styles.input}/>
+      <InputElem placeholder="Комментарий" className={styles.input} />
     </OrderCard>
   );
 };
