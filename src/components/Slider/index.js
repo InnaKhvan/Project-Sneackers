@@ -14,9 +14,9 @@ export const Slider = () => {
           marginRight: 120,
           padding: 11,
         }}
-        className={index == slideIndex ? styles.dotActive : styles.dot}
+        // className={index == slideIndex ? styles.dotActive : styles.dot}
       >
-        {/* <Dots /> */}
+        <Dots />
       </button>
     ));
   return (
