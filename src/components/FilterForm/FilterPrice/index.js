@@ -4,11 +4,6 @@ import "./style.css";
 import styles from './filterPrice.module.css'
 
 const FilterPrice = () => {
-rangeSlider = {
-    min: 150,
-    max: 250,
-
-};
   return (
     <div className={styles.mainblock}>
       <h2 className="text-h3 mb-2.5 desktop:mb-5 mt-7">Цена</h2>
@@ -18,7 +13,7 @@ rangeSlider = {
         <input className={"text-p2 border pl-2.5 pr-5	bg-secondary1 border-secondary2 " + styles.priceblock} />
       </div>
 
-      <RangeSlider type="range" oninput="FilterPrice" />
+      <RangeSlider type="range" />
     </div>
   );
 };
