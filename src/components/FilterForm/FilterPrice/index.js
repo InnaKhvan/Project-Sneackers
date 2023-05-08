@@ -4,7 +4,6 @@ import "./style.css";
 import styles from './filterPrice.module.css'
 
 const FilterPrice = () => {
-
   return (
     <div className={styles.mainblock}>
       <h2 className="text-h3 mb-2.5 desktop:mb-5 mt-7">Цена</h2>

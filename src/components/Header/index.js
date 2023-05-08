@@ -15,7 +15,7 @@ function Header() {
             styles.header
           }
         >
-          <Link to="../">
+          <Link to="/">
             {" "}
             <LogoIcon className="tablet:w-40 h-16" />
           </Link>
