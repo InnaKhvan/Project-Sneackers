@@ -1,6 +1,6 @@
 [
-  { "img": "/background.png" },
-  { "img": "/background.png" },
-  { "img": "/background.png" },
-  { "img": "/background.png" }
+  { "id": 1, "img": "/background.png"},
+  { "id": 2, "img": "/background.png" },
+  { "id": 3, "img": "/background.png" },
+  { "id": 4, "img": "/background.png" }
 ]

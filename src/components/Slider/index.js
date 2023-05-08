@@ -1,4 +1,4 @@
-import img from "../../mockData/slider.json";
+import slide from "../../mockData/slider.json";
 import { Link } from "react-router-dom";
 import Carousel from "nuka-carousel";
 import styles from "./slider.module.css";
@@ -22,11 +22,11 @@ export const Slider = () => {
         renderCenterLeftControls
         renderBottomCenterControls
       >
-        {img.map((slide) => (
+        {slide.map((item) => (
           <img
             className="w-full h-[605px] object-cover"
-            src={slide.img}
-            key={slide}
+            src={item.img}
+            key={item.id}
             alt=""
           />
         ))}
