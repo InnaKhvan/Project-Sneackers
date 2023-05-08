@@ -1,17 +1,11 @@
-import './menuitem.css'
-import { Link } from "react-router-dom";
 import items from "../../../mockData/menuItem.json";
-const MenuItem = ({ kind}) => {
-  const className = kind === "primary" ? "BlackColor" : "RedColor";
-  return (
-    <>
-      {items.map((item) => (
-        <Link>
-          <button className={`pr-9 ${className}`}>{item.name}</button>
-        </Link>
-      ))}
-    </>
-  );
+const MenuItem = () => {
+  return items.map((item) => {
+    if (item.name == "HOT SALE") {
+      return <button className="text-sale">{item.name}</button>;
+    }
+    return <button>{item.name}</button>;
+  });
 };
 
 export default MenuItem;
