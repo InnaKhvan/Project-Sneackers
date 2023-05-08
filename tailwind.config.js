@@ -10,7 +10,6 @@ module.exports = {
       h2m: ["16px", { lineHeight: "20px", fontWeight: "500" }],
       p1: ["14px", { lineHeight: "17px", fontWeight: "400" }],
       p2: ["12px", { lineHeight: "15px", fontWeight: "400" }],
-
     },
     extend: {},
     screens: {
@@ -34,10 +33,10 @@ module.exports = {
         tablet: "704px",
         desktop: "1200px",
       },
+      padding: {
+        DEFAULT: "15px",
+      },
     },
-    // backgroundImage: {
-    //   'main-background': ""
-    // }
   },
   plugins: [],
-};;
+};
