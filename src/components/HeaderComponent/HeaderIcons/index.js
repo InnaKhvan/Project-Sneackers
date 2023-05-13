@@ -1,8 +1,8 @@
-import MenuIcon from "../../svg/MenuIcon";
 import SearchIconTablet from "../../svg/SearchIconTablet";
 import ShopCartIcon from "../../svg/ShopCartIcon";
 import UserIcon from "../../svg/UserIcon";
 import HeartIcon from "../../svg/HeartIcon";
+import MenuItemHeader from "../MenuItemHeader";
 
 const HeaderIcons = () => {
   return (
@@ -11,8 +11,9 @@ const HeaderIcons = () => {
       <UserIcon className="hidden tablet:block " />
       <HeartIcon className="hidden tablet:block " />
       <ShopCartIcon />
-      <MenuIcon className="tablet:hidden desktop:hidden" />
+      <MenuItemHeader className="tablet:hidden desktop:hidden" />
     </div>
   );
 };
+
 export default HeaderIcons;
