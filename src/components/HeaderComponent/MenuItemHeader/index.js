@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { useTransition, config, animated } from "react-spring";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import MenuItem from "../../MenuItems/MenuItem";
 import MenuIcon from "../../svg/MenuIcon";
 import "./styles.css";
 
 const MenuItemHeader = () => {
-  const [isOpen, setIsOpen] = useState();
+  const [isOpen, setIsOpen] = useState(false);
 
   const fullscreenMenu = useTransition(isOpen, null, {
     from: {
@@ -24,6 +24,7 @@ const MenuItemHeader = () => {
     leave: { opacity: 0 },
     config: config.gentle,
   });
+ 
 
   const openButton = useTransition(isOpen, null, {
     from: {
@@ -83,10 +84,11 @@ const MenuItemHeader = () => {
         )}
       </div>
     </div>
+    
   );
+  
 };
-const rootElement = document.getElementById("root");
-
-ReactDOM.render(<MenuItemHeader />, rootElement);
+// const rootElement = document.getElementById("root");
+// ReactDOM.render(<MenuItemHeader />, rootElement);
 
 export default MenuItemHeader;

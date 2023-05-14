@@ -5,6 +5,7 @@ import HeartIcon from "../../svg/HeartIcon";
 import MenuItemHeader from "../MenuItemHeader";
 
 const HeaderIcons = () => {
+
   return (
     <div className="flex space-x-7 justify-around">
       <SearchIconTablet className="hidden tablet:block desktop:hidden" />
