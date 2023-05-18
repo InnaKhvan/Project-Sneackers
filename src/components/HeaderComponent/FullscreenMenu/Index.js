@@ -6,13 +6,16 @@ import UserIcon from "../../svg/UserIcon";
 import ShopCartIcon from "../../svg/ShopCartIcon";
 import HeartIcon from "../../svg/HeartIcon";
 import Xmark from "../../svg/Xmark";
+import { Link } from "react-router-dom";
 
 const FullscreenMenu = ({ onClose }) => {
   return (
     <>
-      <div className="flex items-center flex-row justify-between">
-        <LogoIcon className="flex tablet:w-40 h-16" />
-        <div className="flex items-center space-x-7 justify-around">
+      <div className="flex flex-row justify-between 	">
+        <Link to="/">
+          <LogoIcon className="flex tablet:w-40 h-16" />
+        </Link>
+        <div className="flex items-center space-x-7">
           <SearchIconTablet />
           <UserIcon />
           <HeartIcon />
@@ -22,11 +25,11 @@ const FullscreenMenu = ({ onClose }) => {
           </button>
         </div>
       </div>
-      <div className="flex mt-10 font-semibold justify-center text-h2m">
+      <div className="flex font-semibold my-10 justify-center text-h2m">
         <TelephoneIcon />
         <a href="tel:+375 (33) 777-71-71">+375 (33) 777-71-71</a>
       </div>
-      <div className="flex flex-col my-20 space-y-8 text-h1 justify-center items-center  ">
+      <div className="flex flex-col space-y-8 text-h1 justify-center items-center">
         <MenuItem />
       </div>
     </>
