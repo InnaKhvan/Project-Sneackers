@@ -23,12 +23,7 @@ function Header() {
           <div className="flex items-center">
             <SearchForm className="hidden desktop:block" />
           </div>
-          <div
-            className={
-              "flex flex-row font-semibold justify-around hidden tablet:flex " +
-              styles.telephone
-            }
-          >
+          <div className="flex flex-row text-h2m font-semibold justify-around hidden tablet:flex ">
             <TelephoneIcon />
             <a href="tel:+375 (33) 777-71-71">+375 (33) 777-71-71</a>
           </div>

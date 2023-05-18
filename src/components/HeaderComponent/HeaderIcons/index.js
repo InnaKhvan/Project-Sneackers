@@ -12,7 +12,7 @@ const HeaderIcons = () => {
       <UserIcon className="hidden tablet:block " />
       <HeartIcon className="hidden tablet:block " />
       <ShopCartIcon />
-      <MenuItemHeader className="tablet:hidden desktop:hidden" />
+      <MenuItemHeader />
     </div>
   );
 };
