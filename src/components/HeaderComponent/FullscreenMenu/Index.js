@@ -7,16 +7,17 @@ import ShopCartIcon from "../../svg/ShopCartIcon";
 import HeartIcon from "../../svg/HeartIcon";
 import Xmark from "../../svg/Xmark";
 import { Link } from "react-router-dom";
+import ModalSeach from "../ModalSeach";
 
 const FullscreenMenu = ({ onClose }) => {
   return (
     <>
       <div className="flex flex-row justify-between 	">
         <Link to="/">
-          <LogoIcon className="flex tablet:w-40 h-16" />
+          <LogoIcon className="tablet:w-40 h-16" />
         </Link>
         <div className="flex items-center space-x-7">
-          <SearchIconTablet />
+         <ModalSeach />
           <UserIcon />
           <HeartIcon />
           <ShopCartIcon />

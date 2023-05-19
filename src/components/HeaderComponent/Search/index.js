@@ -2,7 +2,7 @@ import SearchIcon from "../../svg/SearchIcon";
 import style from "./Search.module.css";
 const SearchForm = ({className}) => {
   return (
-    <div className={"relative " + className}>
+    <div className={"relative flex" + className}>
       <input
         type="text"
         className={"flex h-11 border py-3.5 pr-2.5 text-xs font-normal " + style.search}
