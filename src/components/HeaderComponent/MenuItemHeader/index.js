@@ -4,9 +4,8 @@ import MenuItem from "../../MenuItems/MenuItem";
 import MenuIcon from "../../svg/MenuIcon";
 import FullscreenMenu from "../FullscreenMenu/Index";
 import { createPortal } from "react-dom";
-
+import styles from "./styles.module.css";
 const MenuItemHeader = () => {
- 
   const [open, set] = useState(false);
   const transition = useTransition(open ? MenuItem : [], {
     from: { opacity: 0, scale: 0 },
@@ -27,7 +26,7 @@ const MenuItemHeader = () => {
         createPortal(
           <div className="container flex fixed flex-col z-10 bg-secondary1 py-5 overflow-scroll top-0 w-full h-full tablet:hidden desktop:hidden">
             {transition(() => (
-              <animated.div>
+              <animated.div className={styles.modal}>
                 <FullscreenMenu onClose={() => set(false)} />
               </animated.div>
             ))}

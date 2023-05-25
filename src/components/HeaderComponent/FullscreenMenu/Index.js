@@ -8,6 +8,7 @@ import HeartIcon from "../../svg/HeartIcon";
 import Xmark from "../../svg/Xmark";
 import { Link } from "react-router-dom";
 import ModalSeach from "../ModalSeach";
+import SearchForm from "../Search";
 
 const FullscreenMenu = ({ onClose }) => {
   return (
@@ -17,7 +18,8 @@ const FullscreenMenu = ({ onClose }) => {
           <LogoIcon className="tablet:w-40 h-16" />
         </Link>
         <div className="flex items-center space-x-7">
-         <ModalSeach />
+          <SearchIconTablet />
+          {/* <ModalSeach /> */}
           <UserIcon />
           <HeartIcon />
           <ShopCartIcon />
