@@ -12,10 +12,9 @@ const MenuItemHeader = () => {
     enter: { opacity: 1, scale: 1 },
     leave: { opacity: 0, scale: 0 },
   });
-  useEffect(
-    () => {document.body.style.overflow = open ? "hidden" : "unset"},
-    [open]
-  );
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "unset";
+  }, [open]);
   return (
     <>
       {" "}
@@ -27,7 +26,7 @@ const MenuItemHeader = () => {
       </animated.div>
       {open &&
         createPortal(
-          <div className="container flex fixed flex-col z-10 bg-secondary1 py-5 overflow-scroll top-0 w-full h-full tablet:hidden desktop:hidden">
+          <div className="container flex fixed flex-col z-10 bg-white py-5 overflow-scroll top-0 inset-0 tablet:hidden desktop:hidden">
             {transition(() => (
               <animated.div className={styles.modal}>
                 <FullscreenMenu onClose={() => set(false)} />

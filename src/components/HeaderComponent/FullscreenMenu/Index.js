@@ -7,7 +7,6 @@ import ShopCartIcon from "../../svg/ShopCartIcon";
 import HeartIcon from "../../svg/HeartIcon";
 import Xmark from "../../svg/Xmark";
 import { Link } from "react-router-dom";
-import ModalSeach from "../ModalSeach";
 import SearchForm from "../Search";
 
 const FullscreenMenu = ({ onClose }) => {

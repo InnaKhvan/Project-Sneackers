@@ -25,6 +25,7 @@ module.exports = {
       sale: "#FF0000",
       secondary3: "#FFC34F",
       secondary4: "#EF8F00",
+      white: "rgb(255 255 255)",
     },
     container: {
       center: true,
