@@ -1,14 +1,12 @@
 import MenuItem from "../../MenuItems/MenuItem";
 import LogoIcon from "../../svg/LogoIcon";
 import TelephoneIcon from "../../svg/TelephonIcon";
-import SearchIconTablet from "../../svg/SearchIconTablet";
 import UserIcon from "../../svg/UserIcon";
 import ShopCartIcon from "../../svg/ShopCartIcon";
 import HeartIcon from "../../svg/HeartIcon";
 import Xmark from "../../svg/Xmark";
 import { Link } from "react-router-dom";
 import ModalSeach from "../ModalSeach";
-import SearchForm from "../Search";
 
 const FullscreenMenu = ({ onClose }) => {
   return (
@@ -18,8 +16,7 @@ const FullscreenMenu = ({ onClose }) => {
           <LogoIcon className="tablet:w-40 h-16" />
         </Link>
         <div className="flex items-center space-x-7">
-          <SearchIconTablet />
-          {/* <ModalSeach /> */}
+          <ModalSeach className="flex tablet:hidden desktop:hidden" />
           <UserIcon />
           <HeartIcon />
           <ShopCartIcon />
@@ -28,7 +25,7 @@ const FullscreenMenu = ({ onClose }) => {
           </button>
         </div>
       </div>
-      <div className="flex font-semibold my-10 justify-center text-h2m">
+      <div className="flex font-semibold my-12 justify-center text-h2m">
         <TelephoneIcon />
         <a href="tel:+375 (33) 777-71-71">+375 (33) 777-71-71</a>
       </div>
