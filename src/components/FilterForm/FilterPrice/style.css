@@ -1,0 +1,26 @@
+.range-slider {
+  height: 4px;
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.range-slider .range-slider__thumb {
+  width: 10px;
+  height: 10px;
+  background: #7a7a7a;
+}
+
+.range-slider .range-slider__range {
+  background: #7a7a7a;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

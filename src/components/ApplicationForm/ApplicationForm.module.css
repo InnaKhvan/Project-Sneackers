@@ -1,0 +1,66 @@
+.form {
+  height: 352px;
+}
+.block {
+  width: 964px;
+  height: 232px;
+}
+.textblock {
+  margin-top: 17px;
+}
+.text1 {
+  width: 588px;
+  height: 110px;
+}
+.text2 {
+  width: 384px;
+  height: 48px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.button {
+  height: 60px;
+  width: 250px;
+}
+.checkbox {
+  height: 30px;
+  width: 188px;
+}
+@media screen and (max-width: 767px) {
+  .text1 {
+    font-size: 35px;
+    line-height: 43px;
+    width: 345px;
+  }
+  .text2 {
+    font-size: 15px;
+    line-height: 18px;
+    width: 345px;
+  }
+  .form {
+    height: 544px;
+  }
+  .block {
+    padding-top: 60px;
+    margin-left: 15px;
+    width: 345px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .text1 {
+    width: 432px;
+    height: 166px;
+  }
+  .text2 {
+    width: 432px;
+  }
+  .block {
+    width: 704px;
+    margin-left: 32px;
+  }
+  .textblock {
+    margin-right: 23px;
+    margin-top: 4px;
+  }
+}

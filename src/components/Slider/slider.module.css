@@ -1,0 +1,18 @@
+.dot {
+  display: flex;
+  margin-right: 120px;
+  width: 10px;
+  height: 10px;
+  margin-bottom: 11px;
+  border: 1px solid #0a0a0a;
+  border-radius: 50%;
+}
+.active,
+.dot:hover {
+  background-color: #0a0a0a;
+}
+@media screen and (max-width: 1200px) {
+  .dot {
+    margin-right: 32px;
+  }
+}

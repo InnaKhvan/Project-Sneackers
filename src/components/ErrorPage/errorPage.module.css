@@ -1,0 +1,13 @@
+.image {
+width: 704px;
+height: 408px;
+}
+.block {
+    width: 970px;
+    height: 691px;
+}
+.blocktext {
+    width: 633px;
+    font-size: 20px;
+    line-height: 24px;
+}
