@@ -7,11 +7,11 @@ const Catalog = () => {
     <>
       <Navigation />
       <div className="container flex space-x-6 ">
-        <div className="flex w-1/3 hidden tablet:flex ">
+        <div className="flex w-1/4 hidden tablet:flex ">
           {" "}
           <Filter />
         </div>
-        <div className="grid grid-cols-3 gap-x-6 gap-y-8">
+        <div className="w-3/4 grid grid-cols-3 gap-x-6 gap-y-8">
           <Card />
         </div>
       </div>
