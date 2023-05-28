@@ -3,11 +3,7 @@ import "react-range-slider-input/dist/style.css";
 import "./style.css";
 import { useState } from "react";
 
-// const Min = 100;
-// const Max = 1000;
-
 const FilterPrice = () => {
-  // const [min, max] = useState([100,1000]);
   const [values, setValues] = useState([100, 1000]);
 
   console.log(values);
@@ -24,7 +20,6 @@ const FilterPrice = () => {
             className="text-p2 border pl-2.5 w-[50px] rounded-[3px] py-[5px] bg-secondary1 border-secondary2"
             placeholder={values[0]}
             onChange={(event) => setValues([event.target.value, values[1]])}
-
           />
         </label>
         <label>
@@ -35,7 +30,6 @@ const FilterPrice = () => {
             className="text-p2 border pl-2.5 w-[50px] rounded-[3px] py-[5px] bg-secondary1 border-secondary2"
             placeholder={values[1]}
             onChange={(event) => setValues([values[0], event.target.value])}
-
           />
         </label>
       </div>
