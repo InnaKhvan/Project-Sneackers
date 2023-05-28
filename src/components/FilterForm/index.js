@@ -8,16 +8,8 @@ const Sex = ["Женский", "Мужской", "Унисекс"];
 
 const Filter = () => {
   return (
-    <div
-      className={
-        "bg-secondary1 flex-col hidden tablet:flex " + styles.mainblock
-      }
-    >
-      <h1
-        className={
-          "flex font-semibold text-h2t tablet:mb-5 " + styles.textFilter
-        }
-      >
+    <div className="bg-secondary1 flex-col desktop:p-8 desktop:h-[906px] h-[914px] px-4 py-8">
+      <h1 className="flex font-semibold text-h2t mb-5 ">
         Фильтры
       </h1>
       <div className={"flex flex-col " + styles.block}>

@@ -7,7 +7,7 @@ const Catalog = () => {
     <>
       <Navigation />
       <div className="container flex space-x-6 ">
-        <div className="flex w-1/3">
+        <div className="flex w-1/3 hidden tablet:flex ">
           {" "}
           <Filter />
         </div>
