@@ -13,9 +13,7 @@ function Card() {
           <div className="text-p3">{item.name}</div>
         </Link>
         <div className={"inline-block text-h2m "}>{item.price} BYN</div>
-        <button
-          className={"inline-block ml-3 underline text-h2t "}
-        >
+        <button className={"inline-block ml-3 underline text-h2t "}>
           Купить
         </button>
       </div>
