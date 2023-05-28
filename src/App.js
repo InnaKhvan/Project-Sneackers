@@ -8,11 +8,11 @@ function App() {
     <div className="App">
       <Header />
       <div className="container mt-5 ">
-        <div className="grid grid-cols-3 ">
+        <div className="grid grid-cols-3 gap-x-6	gap-y-8	">
           <Card />
         </div>
       </div>
-      <CartCard />
+      {/* <CartCard /> */}
     </div>
   );
 }
