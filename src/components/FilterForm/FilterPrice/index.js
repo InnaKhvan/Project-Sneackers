@@ -23,7 +23,8 @@ const FilterPrice = () => {
             type="number"
             className="text-p2 border pl-2.5 w-[50px] rounded-[3px] py-[5px] bg-secondary1 border-secondary2"
             placeholder={values[0]}
-            onChange={(event) => setValues([values[0], event.target.value])}
+            onChange={(event) => setValues([event.target.value, values[1]])}
+
           />
         </label>
         <label>
@@ -33,7 +34,8 @@ const FilterPrice = () => {
             type="number"
             className="text-p2 border pl-2.5 w-[50px] rounded-[3px] py-[5px] bg-secondary1 border-secondary2"
             placeholder={values[1]}
-            onChange={(event) => setValues([event.target.value, values[1]])}
+            onChange={(event) => setValues([values[0], event.target.value])}
+
           />
         </label>
       </div>
