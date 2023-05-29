@@ -17,7 +17,7 @@ const ModalSeach = () => {
         createPortal(
           <animated.div
             onClick={() => set(false)}
-            className="flex justify-center mt-20 fixed z-10 w-full h-full top-0"
+            className="flex justify-center fixed z-20 inset-0 "
           >
             <SearchForm />
           </animated.div>,

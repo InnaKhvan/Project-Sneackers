@@ -16,7 +16,11 @@ const FullscreenMenu = ({ onClose }) => {
           <LogoIcon className="tablet:w-40 h-16" />
         </Link>
         <div className="flex items-center space-x-7">
-          <ModalSeach className="flex tablet:hidden desktop:hidden" />
+          <div className="flex tablet:hidden desktop:hidden">
+            {" "}
+            <ModalSeach />
+          </div>
+
           <UserIcon />
           <HeartIcon />
           <ShopCartIcon />
