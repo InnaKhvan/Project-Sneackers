@@ -11,7 +11,7 @@ const SearchForm = ({ className }) => {
         }
         placeholder="Поиск по сайту"
         onClick={(e) => e.stopPropagation()}
-      />
+      /> 
       <div className="absolute top-3 pl-6">
         <SearchIcon />
       </div>
