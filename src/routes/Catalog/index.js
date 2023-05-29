@@ -1,3 +1,4 @@
+import CatalogButton from "../../components/CatalogButton";
 import Card from "../../components/CardProduct";
 import Filter from "../../components/FilterForm";
 import FilterSetting from "../../components/FilterSetting";
@@ -16,13 +17,18 @@ const Catalog = () => {
         </div>
       </div>
 
-      <div className="container flex space-x-6 ">
+      <div className="container flex space-x-6 mb-20 tablet:mb-[120px] desktop:mb-40">
         <div className="flex w-1/4 hidden tablet:flex ">
           {" "}
           <Filter />
         </div>
-        <div className="tablet:w-3/4 grid grid-cols-2 desktop:grid-cols-3 gap-x-6 gap-y-8">
-          <Card />
+        <div className="tablet:w-3/4">
+          <div className="grid grid-cols-2 desktop:grid-cols-3 gap-x-6 gap-y-8">
+            <Card />
+          </div>
+          <div className="flex justify-center mt-10 desktop:mt-[60px]">
+            <CatalogButton />
+          </div>
         </div>
       </div>
     </>
