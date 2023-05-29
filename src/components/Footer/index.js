@@ -11,7 +11,7 @@ import helpFooterMenuItems from "../../mockData/helpFooterMenuItems.json"
 
 function Footer() {
     return (
-        <div className="absolute inset-x-0 bottom-x-0 h-0 ">
+        <div className="inset-x-0 bottom-x-0 h-0 ">
             <div className={styles.footer + " py-10 "}>
                 <div className="container grid grid-cols-4 tablet:grid-cols-8 desktop:grid-cols-12">
                     <div className="col-span-2 desktop:col-span-3">

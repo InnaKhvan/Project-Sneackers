@@ -5,7 +5,6 @@ import ThankYouPage from "../../components/ThankYouPage"
 const RouteThankYouPage = () => {
     return (
         <>
-            <Header />
             <ThankYouPage />
             <Footer />
         </>
