@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const UserIcon = ({ className }) => {
   return (
-    <div className={className}>
+    <div className={"m-1" + className}>
       <Link>
         <button>
           {" "}
