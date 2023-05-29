@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 import VectorIcon from "../svg/VectorIcon";
-import styles from "./navig.module.css";
 
 const Navigation = ({ name }) => {
   return (
-    <div className="container flex flex-col justify-between">
-      <div className={"flex font-medium text-p1 tablet:my-5 " + styles.block}>
+    <div className="flex flex-col justify-between">
+      <div className="flex font-medium my-5 text-p1 tablet:my-5 ">
         <Link to="/">
           <p className="text-secondary2">Главная</p>
         </Link>

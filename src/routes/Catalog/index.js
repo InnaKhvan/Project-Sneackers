@@ -6,8 +6,16 @@ import Navigation from "../../components/Navigation";
 const Catalog = () => {
   return (
     <>
-      <Navigation name="Каталог"/>
-      <FilterSetting />
+      <div className="container flex justify-between">
+        {" "}
+        <div className="flex">
+          <Navigation name="Каталог" />
+        </div>
+        <div className="flex">
+          <FilterSetting />
+        </div>
+      </div>
+
       <div className="container flex space-x-6 ">
         <div className="flex w-1/4 hidden tablet:flex ">
           {" "}
