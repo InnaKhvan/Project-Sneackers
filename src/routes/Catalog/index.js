@@ -3,7 +3,7 @@ import Card from "../../components/CardProduct";
 import Filter from "../../components/FilterForm";
 import FilterSetting from "../../components/FilterSetting";
 import Navigation from "../../components/Navigation";
-
+import items from "../../mockData/products.json";
 const Catalog = () => {
   return (
     <>
@@ -24,7 +24,9 @@ const Catalog = () => {
         </div>
         <div className="tablet:w-3/4">
           <div className="grid grid-cols-2 desktop:grid-cols-3 gap-x-6 gap-y-8">
-            <Card />
+            {items.map((item) => (
+              <Card item={item} />
+            ))}
           </div>
           <div className="flex justify-center mt-10 desktop:mt-[60px]">
             <CatalogButton />
