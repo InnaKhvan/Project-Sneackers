@@ -10,10 +10,13 @@ const MainPage = () => {
     <>
       <MenuItems className="hidden tablet:block" />
       <Slider />
-      <BrandsBlock />
-      <NewProdactBlock />
-      <HotSale />
-      <ApplicationForm />
+      <div className="grid content-between gap-y-40">
+        {" "}
+        <BrandsBlock />
+        <NewProdactBlock />
+        <HotSale />
+        <ApplicationForm />
+      </div>
     </>
   );
 };

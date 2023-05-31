@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Puma CA Pro Classic",
+      "price": 450,
+      "img": "./adidas1.png"
+    },
+    {
+      "name": "Nike Air Max Down",
+      "price": 350,
+      "img": "./adidas1.png "
+    },
+    {
+      "name": "Adidas COURT BOLD",
+      "price": 210,
+      "img": "./adidas1.png "
+    },
+    {
+      "name": "Reebok CLUB C 85",
+      "price": 300,
+      "img": "./adidas1.png "
+    }
+  ]
+  
