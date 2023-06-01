@@ -1,5 +1,5 @@
-import Checkbox from "../Checkbox";
-import InputElem from "../InputElem";
+import Checkbox from "../../Checkbox";
+import InputElem from "../../InputElem";
 import styles from "./ApplicationForm.module.css";
 const ApplicationForm = () => {
   return (

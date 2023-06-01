@@ -1,8 +1,8 @@
-import adidas from "../../mockData/adidas.png";
-import jordan from "../../mockData/jordan.png";
-import NB from "../../mockData/NB.png";
-import nike from "../../mockData/nike.png";
-import puma from "../../mockData/puma.png";
+import adidas from "../../../mockData/adidas.png";
+import jordan from "../../../mockData/jordan.png";
+import NB from "../../../mockData/NB.png";
+import nike from "../../../mockData/nike.png";
+import puma from "../../../mockData/puma.png";
 
 const BrandsBlock = () => {
   return (
@@ -13,17 +13,24 @@ const BrandsBlock = () => {
       <div className="grid grid-cols-4 gap-y-10 gap-x-5	items-center tablet:grid-cols-5">
         <img
           className="object-contain tablet:col-span-2 content-center"
-          src={puma} alt='' 
+          src={puma}
+          alt=""
         />
-        <img className="object-contain tablet:col-span-2 " src={NB} alt='' />
-        <img className="object-contain tablet:col-span-1 " src={adidas} alt='' />
+        <img className="object-contain tablet:col-span-2 " src={NB} alt="" />
+        <img
+          className="object-contain tablet:col-span-1 "
+          src={adidas}
+          alt=""
+        />
         <img
           className="object-contain tablet:col-span-2 tablet:col-start-2 "
-          src={jordan} alt='' 
+          src={jordan}
+          alt=""
         />
         <img
           className="object-contain hidden col-span-2 tablet:grid"
-          src={nike} alt='' 
+          src={nike}
+          alt=""
         />
       </div>
     </div>

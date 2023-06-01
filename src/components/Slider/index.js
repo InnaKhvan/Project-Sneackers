@@ -13,11 +13,7 @@ export const Slider = () => {
   return (
     <div className="flex justify-center relative">
       <Carousel
-        renderTopCenterControls={({ currentSlide }) => (
-          <div>Slide: {currentSlide}</div>
-        )}
         animation="zoom"
-        // currentSlide={0}
         renderCenterRightControls={pagingDots}
         renderCenterLeftControls
         renderBottomCenterControls

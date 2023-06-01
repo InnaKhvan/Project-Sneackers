@@ -2,21 +2,21 @@
   {
     "name": "Nike Air Monarch",
     "price": 250,
-    "img": "./adidas1.png"
+    "img": "/Project-Sneackers/adidas1.png"
   },
   {
     "name": "Reebok CLUB C REVENGE",
     "price": 150,
-    "img": "./adidas1.png "
+    "img": "/Project-Sneackers/adidas1.png"
   },
   {
     "name": "Puma Cali Dream",
     "price": 350,
-    "img": "./adidas1.png "
+    "img": "/Project-Sneackers/adidas1.png"
   },
   {
     "name": "Adidas OZWEEGO CELOX",
     "price": 550,
-    "img": "./adidas1.png "
+    "img": "/Project-Sneackers/adidas1.png"
   }
 ]

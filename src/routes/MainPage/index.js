@@ -1,10 +1,10 @@
-import ApplicationForm from "../../components/ApplicationForm";
-import BrandsBlock from "../../components/BrandBlock";
-import HotSale from "../../components/HotSale";
+import ApplicationForm from "../../components/MainPageBlocks/ApplicationForm";
+import BrandsBlock from "../../components/MainPageBlocks/BrandBlock";
+import MainPageBlocks from "../../components/MainPageBlocks/MainPageBlocks";
 import MenuItems from "../../components/MenuItems";
-import NewProdactBlock from "../../components/NewProducts";
 import Slider from "../../components/Slider";
-
+import NewProdact from "../../mockData/newProdact.json";
+import SaleProdact from "../../mockData/saleProdact.json";
 const MainPage = () => {
   return (
     <>
@@ -13,8 +13,13 @@ const MainPage = () => {
       <div className="grid content-between gap-y-40">
         {" "}
         <BrandsBlock />
-        <NewProdactBlock />
-        <HotSale />
+        <MainPageBlocks title="НОВИНКИ" items={NewProdact} linkMore="Catalog" />
+        <MainPageBlocks
+          title="HOT SALE"
+          items={SaleProdact}
+          linkMore="Catalog"
+          headerClass="text-sale"
+        />
         <ApplicationForm />
       </div>
     </>
