@@ -18,7 +18,7 @@ const MainPageBlocks = ({ items, title = "", headerClass, linkMore = "" }) => {
         </div>
       </Link>
     </div>
-  );
+  ); 
 };
 
 export default MainPageBlocks;

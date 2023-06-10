@@ -18,7 +18,7 @@ const MainPage = () => {
           title="HOT SALE"
           items={SaleProdact}
           linkMore="Catalog"
-          headerClass="text-sale"
+          headerClass="text-sale" 
         />
         <ApplicationForm />
       </div>

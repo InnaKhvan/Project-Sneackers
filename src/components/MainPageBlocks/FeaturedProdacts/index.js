@@ -9,6 +9,6 @@ const FeaturedProdacts = ({items}) => {
         ))}
       </div>
     </div>
-  );
+  ); 
 };
 export default FeaturedProdacts;
