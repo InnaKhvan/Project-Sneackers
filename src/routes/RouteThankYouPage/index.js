@@ -6,7 +6,6 @@ const RouteThankYouPage = () => {
     return (
         <>
             <ThankYouPage />
-            <Footer />
         </>
     )
 }
