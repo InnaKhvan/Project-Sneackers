@@ -1,4 +1,4 @@
-import Header from "../../components/Header";
+import Header from "../../components/HeaderComponent";
 import MenuItems from "../../components/MenuItems";
 import Navigation from "../../components/Navigation";
 import OrderForm from "../../components/OrderForm";

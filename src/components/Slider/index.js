@@ -1,37 +1,36 @@
-import img from "../../mockData/background.png";
+import img from "../../mockData/slider.json";
 import { Link } from "react-router-dom";
-
 import Carousel from "nuka-carousel";
 import styles from "./slider.module.css";
-// import Ellipse from "../svg/Ellipse";
 export const Slider = () => {
-  const slides = [img, img, img, img];
-  const params = {};
+  const pagingDots = ({ goToSlide, slideIndex, pagingDotsIndices }) =>
+    pagingDotsIndices.map((index) => (
+      <button
+        onClick={() => goToSlide(index)}
+        className={index == slideIndex ? styles.dotActive : styles.dot}
+      />
+    ));
   return (
     <div className="flex justify-center relative">
-      <div className={"flex " + styles.carousel}>
-        <Carousel
-          {...params}
-          renderCenterLeftControls
-          // renderBottomCenterControls={{Paging dots}}
-          // renderCenterRightControls={({ goToSlide, slideIndex }) => (
-          //   <button onClick={goToSlide(slideIndex)}><Ellipse /></button>
-          // )}
-        >
-          {slides.map((slide) => (
-            <img src={slide} key={slide} alt="" />
-          ))}
-        </Carousel>
-      </div>
-      <div className={"flex absolute " + styles.catalog}>
+      <Carousel
+        animation="zoom"
+        renderCenterRightControls={pagingDots}
+        renderCenterLeftControls
+        renderBottomCenterControls
+      >
+        {img.map((slide) => (
+          <img
+            className="w-full h-[605px] object-cover"
+            src={slide.img}
+            key={slide}
+            alt=""
+          />
+        ))}
+      </Carousel>
+      <div className="flex absolute bottom-[50px]">
         {" "}
         <Link to="Catalog">
-          <button
-            className={
-              "flex bg-primary1 text-p1 justify-center text-secondary1 p-5 rounded-xl " +
-              styles.button
-            }
-          >
+          <button className="flex bg-primary1 text-p1 justify-center text-secondary1 p-5 rounded-xl w-[204px] h-[60px]">
             Смотреть каталог{" "}
           </button>
         </Link>
@@ -39,4 +38,5 @@ export const Slider = () => {
     </div>
   );
 };
+
 export default Slider;
