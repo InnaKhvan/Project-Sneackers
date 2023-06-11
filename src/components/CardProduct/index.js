@@ -18,17 +18,8 @@ const Card = ({ item, className }) => {
           >
             {item.price} BYN
           </div>
-       {if (item.saleprice == true)
-          { return (
-            <div
-              className={
-                "inline-block font-normal text-p1 tablet:text-h2m " + className
-              }
-            >
-              
-              {item.saleprice} BYN
-            </div>;)
-          }}
+    
+     
           <button className="inline-block font-medium ml-3 underline text-p1 tablet:text-h2t ">
             Купить
           </button>

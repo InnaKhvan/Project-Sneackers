@@ -3,20 +3,20 @@ import RightArrows from "../svg/ArrowRight";
 const num = [1, 2, 3, 4, 5];
 const CatalogButton = () => {
   return (
-    <div className="flex">
+    <div className="flex justify-center items-center mt-10 desktop:mt-[60px]">
       {" "}
-      <button>
+      <button className="w-5 h-5 mr-5 tablet:w-6 h-6 mr-[30px]">
         {" "}
         <LeftArrows />
       </button>
-      <div className="flex">
+    
         {num.map((item) => (
-          <button className="px-3.5 py-3 tablet:py-5 tablet:px-6 mx-2.5 text-p1 tablet:text-p3 font-normal active:bg-primary2 hover:bg-primary2 rounded-full">
+          <button className="flex items-center justify-center h-10 w-10 rounded-full text-p1 font-normal tablet:h-[60px] tablet:w-[60px] text-p3 active:bg-primary2 hover:bg-primary2 ">
             {item}
           </button>
         ))}
-      </div>
-      <button>
+   
+      <button className="w-5 h-5 ml-5 tablet:w-6 h-6 ml-[30px]">
         {" "}
         <RightArrows />
       </button>

@@ -28,9 +28,7 @@ const Catalog = () => {
               <Card item={item} />
             ))}
           </div>
-          <div className="flex justify-center mt-10 desktop:mt-[60px]">
             <CatalogButton />
-          </div>
         </div>
       </div>
     </>
