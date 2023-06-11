@@ -19,7 +19,7 @@ const OrderForm = () => {
         <CommentForm />
       </div>
       <div className={"hidden tablet:flex flex-col " + styles.orderButton}>
-        <ButtonOrder />
+        <ButtonOrder item="Оформить заказ" />
         <div className="mt-3.5">
           <Checkbox />
         </div>
