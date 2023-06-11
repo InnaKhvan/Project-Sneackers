@@ -7,12 +7,12 @@ import MenuItemHeader from "../MenuItemHeader";
 const HeaderIcons = () => {
 
   return (
-    <div className="flex space-x-7 justify-around">
-      <SearchIconTablet className="hidden tablet:block desktop:hidden" />
-      <UserIcon className="hidden tablet:block " />
-      <HeartIcon className="hidden tablet:block " />
+    <div className="flex space-x-7 items-center justify-center ">
+      <SearchIconTablet className="hidden tablet:flex desktop:hidden" />
+      <UserIcon className="hidden tablet:flex " />
+      <HeartIcon className="hidden tablet:flex " />
       <ShopCartIcon />
-      <MenuItemHeader />
+      <MenuItemHeader className="flex tablet:hidden "/>
     </div>
   );
 };

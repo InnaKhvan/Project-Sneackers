@@ -1,13 +1,7 @@
-import styles from "./buttonOrder.module.css";
 const ButtonOrder = () => {
   return (
     <div>
-      <button
-        className={
-          "bg-primary2 text-secondary1 text-p1 font-bold rounded-xl " +
-          styles.button
-        }
-      >
+      <button className="bg-primary2 text-secondary1 text-p1 font-bold rounded-xl w-60 h-[60px]">
         Оформить заказ
       </button>
     </div>

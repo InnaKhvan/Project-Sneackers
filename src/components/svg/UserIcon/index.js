@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const UserIcon = ({ className }) => {
   return (
-    <div className={"m-1" + className}>
+  
       <Link>
-        <button>
+        <button className={className}>
           {" "}
           <svg
             width="24"
@@ -30,7 +30,7 @@ const UserIcon = ({ className }) => {
           </svg>
         </button>
       </Link>
-    </div>
+ 
   );
 };
 export default UserIcon;

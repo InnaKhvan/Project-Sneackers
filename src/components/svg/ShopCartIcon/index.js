@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-const ShopCartIcon = () => {
+const ShopCartIcon = ({className}) => {
   return (
     <Link>
-      <button>
+      <button className={"flex " + className}>
         {" "}
         <svg
           width="24"

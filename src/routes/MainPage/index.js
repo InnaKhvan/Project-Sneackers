@@ -1,6 +1,6 @@
 import ApplicationForm from "../../components/MainPageBlocks/ApplicationForm";
 import BrandsBlock from "../../components/MainPageBlocks/BrandBlock";
-import MainPageBlocks from "../../components/MainPageBlocks/MainPageBlocks";
+import MainPageBlocks from "../../components/MainPageBlocks";
 import MenuItems from "../../components/MenuItems";
 import Slider from "../../components/Slider";
 import NewProdact from "../../mockData/newProdact.json";

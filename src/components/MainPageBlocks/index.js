@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import FeaturedProdacts from "../FeaturedProdacts";
+import FeaturedProdacts from "./FeaturedProdacts";
 const MainPageBlocks = ({ items, title = "", headerClass, linkMore = "" }) => {
   return (
     <div className="container flex flex-col">

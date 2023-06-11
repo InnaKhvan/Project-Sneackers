@@ -7,6 +7,7 @@ module.exports = {
       h2: ["25px", { lineHeight: "30px", fontWeight: "500" }],
       h3: ["15px", { lineHeight: "18px", fontWeight: "500" }],
       h4: ["35px", { lineHeight: "43px", fontWeight: "700" }],
+      h5: ["30px", { lineHeight: "37px", fontWeight: "700" }],
       h2t: ["20px", { lineHeight: "24px", fontWeight: "500" }],
       h2m: ["16px", { lineHeight: "20px", fontWeight: "500" }],
       p1: ["14px", { lineHeight: "17px", fontWeight: "400" }],
