@@ -18,7 +18,7 @@ const MenuItemHeader = () => {
     <>
       {" "}
       <animated.div
-        className="flex tablet:hidden desktop:hidden "
+        
         onClick={() => set(true)}
       >
         <MenuIcon />
