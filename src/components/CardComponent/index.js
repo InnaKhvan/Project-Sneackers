@@ -10,12 +10,13 @@ const CardComponent = ({ item }) => {
         <img src="/Project-Sneackers/adidas1.png" />
       </div>
       <div className="flex flex-col">
-        <div className="flex text-h2t font-bold	mb-2.5 tablet:mb-8 text-3xl	desktop:text-h1 mb-[60px]">{item.name}</div>
+        <div className="flex text-h2t font-bold	mb-2.5 tablet:mb-8 text-3xl	desktop:text-h1 mb-[60px]">
+          {item.name}
+        </div>
         <div className="flex flex-col space-y-5 desktop:space-y-7">
           <div className="flex flex-col text-p1 space-y-2 desktop:text-h2 space-y-3">
             <div className=" flex flex-row">
-              Артикул:{" "}
-              <div className="font-semibold">{item.articul}</div>
+              Артикул: <div className="font-semibold">{item.articul}</div>
             </div>
             <div className=" flex flex-row">
               Цвет: <div className="font-semibold">{item.color}</div>
@@ -24,10 +25,17 @@ const CardComponent = ({ item }) => {
               Пол: <div className="font-semibold">{item.sex}</div>
             </div>
           </div>
-          <FilterSize />{" "}
+          <div>Размер</div>
+          <div>
+            {item.size.map((num) => (
+              <div> {num}</div>
+            ))}
+          </div>
           <div className="flex flex-col space-y-2.5 desktop:space-y-6">
             {" "}
-            <div className="text-xl font-bold desktop:text-h4">{item.price} BYN</div>
+            <div className="text-xl font-bold desktop:text-h4">
+              {item.price} BYN
+            </div>
             <div className="flex flex-row space-x-3.5 desktop:space-x-6">
               {" "}
               <button className="bg-primary2 text-secondary1 items-center	justify-center text-p2 font-bold rounded-xl h-[43px] w-[143px] desktop:w-60 desktop:h-[72px] desktop:text-h2m">
