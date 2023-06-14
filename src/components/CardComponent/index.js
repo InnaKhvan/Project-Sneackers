@@ -9,7 +9,7 @@ const CardComponent = ({ item }) => {
       <div className="grid">
         <img src="/Project-Sneackers/adidas1.png" />
       </div>
-      <div className="grid">
+      <div className="flex flex-col">
         <div className="flex text-h2t font-bold	mb-2.5 tablet:mb-8 text-3xl	desktop:text-h1 mb-[60px]">{item.name}</div>
         <div className="flex flex-col space-y-5 desktop:space-y-7">
           <div className="flex flex-col text-p1 space-y-2 desktop:text-h2 space-y-3">
