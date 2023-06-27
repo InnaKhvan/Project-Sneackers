@@ -8,7 +8,7 @@ function ThankYouPage() {
     return (
         <div className="container md:mx-auto">
             <Navigation name="Оформление заказа"></Navigation>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center gap-[2.75rem] m-20">
                 <div><TickSymbolThanksPage /></div>
                 <div><ThankYouText></ThankYouText></div>
                 <div><ThankYouUnderText></ThankYouUnderText></div>
