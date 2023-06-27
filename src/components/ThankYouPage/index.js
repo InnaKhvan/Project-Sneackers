@@ -7,11 +7,11 @@ import React from "react";
 function ThankYouPage() {
     return (
         <div className="container md:mx-auto">
-            <div className="md:container md:mx-auto">
-                <Navigation name="Оформление заказа"></Navigation>
-                <TickSymbolThanksPage className="place-items-center" />
-                <ThankYouText></ThankYouText>
-                <ThankYouUnderText></ThankYouUnderText>
+            <Navigation name="Оформление заказа"></Navigation>
+            <div className="flex flex-col items-center">
+                <div><TickSymbolThanksPage /></div>
+                <div><ThankYouText></ThankYouText></div>
+                <div><ThankYouUnderText></ThankYouUnderText></div>
             </div>
         </div>
     )
